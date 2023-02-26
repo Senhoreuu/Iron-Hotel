@@ -960,8 +960,7 @@ Jason(`:visual`, true, setVisual);
 
 const waitMention = new Set();
 Events.on(`say`, (user, message) => {
-    const getMention = message.indexOf(`@`);
-    if (getMention == 0) {
+    if (message.startsWith("@") {
         const id = user.getId();
         if (waitMention.has(id)) return;
         const arg = message.split(`@`)[1];
