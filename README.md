@@ -1,2 +1,2 @@
-# Iron Hotel
-Scripts made for Iron Hotel.
+# Fuja do Jason
+Script made for Fuja do Jason.
